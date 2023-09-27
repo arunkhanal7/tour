@@ -14,7 +14,9 @@ const App = () => {
         <h1>TOUR DATES</h1>
         <p>Remember to book your Tickets!</p>
       </div>
-     <Navbar/>
+     <Navbar month="october" isSold={true}/>
+     <Navbar month="november" isSold={true}/>
+     <Navbar month="december" isSold={false}/>
      
      
 

@@ -1,18 +1,14 @@
 import React from 'react'
 
-const Navbar = () => {
+const Navbar = ({month,isSold}) => {
 
   return (
     <>
-        <div className='september'>September
-        <span className='sold'>sold out</span>
-    
-        </div>
-        <div className='october'>October
-        <span className='sold'>sold out</span>
-    
-        </div>
-        <div className='november'>November</div>
+
+      <div className ='months'>
+        {month}
+       <span className='sold'> {isSold && 'Sold out'} </span>
+      </div>
     
 
     </>

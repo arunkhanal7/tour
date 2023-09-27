@@ -17,30 +17,13 @@ body{
   display: flex;
   justify-content: center;
 }
-.september {
-  width: 47rem;
-  height: 2rem;
+.months {
   background-color: white;
   border: 1px solid ;
   color: black;
-}
-.october{
-  width: 47rem;
   height: 2rem;
-  background-color: white;
-  border: 1px solid ;
-  color: black;
-
 }
-.november{
-  width: 47rem;
-  height: 2rem;
-  background-color: white;
-  border: 1px solid ;
-  color: black;
 
-
-}
 .sold{
   height: 1rem;
   width: 10px;
